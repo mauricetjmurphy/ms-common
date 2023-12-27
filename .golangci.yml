@@ -1,0 +1,42 @@
+run:
+  concurrency: 8
+  deadline: 1m
+  tests: false
+  skip-dirs:
+    - mocks
+    - rpc
+linters:
+  enable:
+    - bodyclose
+    - depguard
+    - dogsled
+    - dupl
+    - errcheck
+    - exportloopref
+    #- funlen
+    - gofmt
+    - gochecknoinits
+    - goconst
+    - gocritic
+    - gocyclo
+    - goimports
+    - goprintffuncname
+    - gosec
+    - gosimple
+    - govet
+    - ineffassign
+    #- lll
+    - misspell
+    - nakedret
+    - noctx
+    - nolintlint
+    - staticcheck
+    - stylecheck
+    - typecheck
+    - unconvert
+    - unparam
+    - unused
+    - whitespace
+    - revive
+  enable-all: false
+  disable-all: true

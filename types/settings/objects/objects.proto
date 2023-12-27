@@ -1,0 +1,70 @@
+syntax = "proto3";
+
+package com.inbcu.rpc.types.settings.objects;
+option go_package = "github.com/NBCUniversal/gvs-ms-common/types/settings/objects;objects";
+
+message CmsApp {
+  int64 id = 1;
+  string name = 2;
+  string type = 3;
+}
+
+message Category {
+  int64 id = 1;
+  string name = 2;
+  string code = 3;
+}
+
+message Brand {
+  int64 id = 1;
+  string name = 2;
+}
+
+message OfferType {
+  int64 id = 1;
+  string name = 2;
+}
+
+message TransmissionType {
+  int64 id = 1;
+  string name = 2;
+}
+
+message Library {
+  int64 id = 1;
+  string name = 2;
+}
+
+message Regulator {
+  int64 id = 1;
+  string name = 2;
+}
+
+message Service {
+  int64 id = 1;
+  string name = 2;
+}
+
+message Territory {
+  int64 id = 1;
+  string name = 2;
+}
+
+message Country {
+  int64 id = 1;
+  string name = 2;
+  string code = 3;
+}
+
+message Platform {
+  int64 id = 1;
+  string name = 2;
+  string code = 3;
+  string displayName = 4;
+}
+
+message Genre {
+  int64 id = 1;
+  string name = 2;
+  string code = 3;
+}

@@ -1,0 +1,42 @@
+syntax = "proto3";
+
+package com.inbcu.rpc.types.settings.programme;
+option go_package = "github.com/NBCUniversal/gvs-ms-common/types/settings/programme;programme";
+
+import "settings/objects/objects.proto";
+
+message Programme {
+  int64 id = 1;
+  string title = 2;
+  int64 slotDuration = 3;
+  int64 year = 4;
+  int64 numberOfEpisodes = 5;
+  int64 seasonNumber = 6;
+  int64 numberOfSeasons = 7;
+  ProgrammeType programmeType = 8;
+  repeated Episode episodes = 9;
+  repeated objects.Genre genres = 10;
+  Series series = 11;
+}
+
+message ProgrammeType {
+  int64 id = 1;
+  string name = 2;
+  string code = 3;
+  bool isSingleProgram = 4;
+}
+
+message Series {
+  int64 id = 1;
+  string title = 2;
+}
+
+message Episode {
+  int64 id = 1;
+  string title = 2;
+  int64 number = 3;
+  int64 yearOfProduction = 4;
+  repeated objects.Genre genres = 5;
+  string type = 6;
+  int64 slotDuration = 7;
+}

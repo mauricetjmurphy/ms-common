@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.inbcu.rpc.types.settings.status;
+option go_package = "github.com/NBCUniversal/gvs-ms-common/types/settings/status;status";
+
+message ScheduleStatus {
+  int64 id = 1;
+  string name = 2;
+}
+
+message ApprovalStatus {
+  int64 id = 1;
+  string name = 2;
+}

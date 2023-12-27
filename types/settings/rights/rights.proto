@@ -1,0 +1,38 @@
+syntax = "proto3";
+
+package com.inbcu.rpc.types.settings.rights;
+option go_package = "github.com/NBCUniversal/gvs-ms-common/types/settings/rights;rights";
+
+import "settings/territory/territory.proto";
+import "settings/channel/channel.proto";
+
+message Rights {
+  int64 id = 1;
+  string type = 2;
+  string startDate = 3;
+  string endDate = 4;
+  Contract contract = 5;
+  int64 programmeId = 6;
+  repeated territory.Territory territories = 7;
+  repeated channel.Channel channels = 8;
+  string offsetFrom = 9;
+  string offsetFor = 10;
+  string availability = 11;
+  string onDemandRule = 12;
+  int64 licensedEpisodes = 13;
+  int64 numberOfEpisodes = 14;
+  string landmarkRightsID = 15; // Refers Contract.rightsId
+}
+
+message Contract {
+  int64 id = 1;
+  string title = 2;
+  string reference = 3;
+  string rightsId = 4;
+  ContractStatus status = 5;
+}
+
+message ContractStatus {
+  int64 id = 1;
+  string name = 2;
+}

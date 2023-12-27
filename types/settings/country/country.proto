@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.inbcu.rpc.types.settings.country;
+option go_package = "github.com/NBCUniversal/gvs-ms-common/types/settings/country;country";
+
+import "settings/timezone/timezone.proto";
+
+message Country {
+  int64 id = 1;
+  string name = 2;
+  string code = 3;
+  repeated timezone.Timezone timezones = 4;
+}

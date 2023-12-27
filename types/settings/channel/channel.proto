@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+package com.inbcu.rpc.types.settings.channel;
+option go_package = "github.com/NBCUniversal/gvs-ms-common/types/settings/channel;channel";
+
+message Channel {
+  int64 id = 1;
+  string name = 2;
+  string code = 3;
+  ChannelType type = 4;
+  string displayName = 5;
+}
+
+message ChannelType {
+  int64 id = 1;
+  string name = 2;
+  bool isLinear = 3;
+}
+
+message ServiceType {
+  int64 id = 1;
+  string name = 2;
+}

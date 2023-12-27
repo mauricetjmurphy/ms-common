@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package com.inbcu.rpc.types.settings.pagination;
+option go_package = "github.com/NBCUniversal/gvs-ms-common/types/settings/pagination;pagination";
+
+enum OrderType {
+  ASC = 0;
+  DESC = 1;
+}
+
+message Pagination {
+  int64 pageNumber = 1;
+  int64 pageSize = 2;
+  OrderType order = 3;
+  string sort = 4;
+}

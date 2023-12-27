@@ -1,0 +1,10 @@
+version: v1
+lint:
+  use:
+    - DEFAULT
+  except:
+    - PACKAGE_DIRECTORY_MATCH
+    - FIELD_LOWER_SNAKE_CASE
+    - PACKAGE_VERSION_SUFFIX
+    - ENUM_VALUE_PREFIX
+    - ENUM_ZERO_VALUE_SUFFIX

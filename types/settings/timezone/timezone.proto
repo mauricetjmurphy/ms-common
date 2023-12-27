@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.inbcu.rpc.types.settings.timezone;
+option go_package = "github.com/NBCUniversal/gvs-ms-common/types/settings/timezone;timezone";
+
+message Timezone {
+  int64 id = 1;
+  string name = 2;
+  string time = 3;
+  string ianaTimezone = 4;
+}

@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package com.inbcu.rpc.types.settings.linearchannel;
+option go_package = "github.com/NBCUniversal/gvs-ms-common/types/settings/linearchannel;linearchannel";
+
+message LinearChannel {
+  int64 id = 1;
+  string code = 2;
+  string name = 3;
+  string displayName = 4;
+  repeated LinearChannelPlatform platforms = 5;
+}
+
+message LinearChannelPlatform {
+  int64 platformId = 1;
+  int64 territoryId = 2;
+  int64 offerTypeId = 3;
+}

@@ -7,7 +7,7 @@
 package programme
 
 import (
-	objects "github.com/NBCUniversal/gvs-ms-common/types/settings/objects"
+	objects "github.com/mauricetjmurphy/ms-common/types/settings/objects"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

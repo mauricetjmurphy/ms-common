@@ -5,7 +5,7 @@ package secretsmocks
 import (
 	context "context"
 
-	secrets "github.com/NBCUniversal/gvs-ms-common/clients/aws/secrets"
+	secrets "github.com/mauricetjmurphy/ms-common/clients/aws/secrets"
 	mock "github.com/stretchr/testify/mock"
 )
 

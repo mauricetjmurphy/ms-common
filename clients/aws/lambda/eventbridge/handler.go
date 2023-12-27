@@ -7,8 +7,8 @@ import (
 	"github.com/aws/aws-lambda-go/events"
 	"github.com/aws/aws-lambda-go/lambda"
 
-	"github.com/NBCUniversal/gvs-ms-common/clients/aws/lambda/utils"
-	"github.com/NBCUniversal/gvs-ms-common/logx"
+	"github.com/mauricetjmurphy/ms-common/clients/aws/lambda/utils"
+	"github.com/mauricetjmurphy/ms-common/logx"
 )
 
 type Handler func(ctx context.Context, event events.CloudWatchEvent) error

@@ -4,9 +4,9 @@ import (
 	"context"
 	"sync"
 
-	"github.com/NBCUniversal/gvs-ms-common/clients/aws/sqs"
 	awssqs "github.com/aws/aws-sdk-go-v2/service/sqs"
 	"github.com/aws/aws-sdk-go-v2/service/sqs/types"
+	"github.com/mauricetjmurphy/ms-common/clients/aws/sqs"
 	"github.com/pkg/errors"
 )
 

@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"regexp"
 
-	"github.com/NBCUniversal/gvs-ms-common/http/utils"
+	"github.com/mauricetjmurphy/ms-common/http/utils"
 )
 
 type contextKey int

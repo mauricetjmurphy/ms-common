@@ -8,7 +8,7 @@ import (
 	eb "github.com/aws/aws-sdk-go-v2/service/eventbridge"
 	"github.com/aws/aws-sdk-go-v2/service/eventbridge/types"
 
-	"github.com/NBCUniversal/gvs-ms-common/clients/aws/eventbridge"
+	"github.com/mauricetjmurphy/ms-common/clients/aws/eventbridge"
 )
 
 // Publisher is satisfied Publisher to send custom message to eventbus

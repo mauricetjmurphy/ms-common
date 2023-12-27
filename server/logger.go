@@ -1,7 +1,7 @@
 package server
 
 import (
-	"github.com/NBCUniversal/gvs-ms-common/logx"
+	"github.com/mauricetjmurphy/ms-common/logx"
 )
 
 type Logger interface {

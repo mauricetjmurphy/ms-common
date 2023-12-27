@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/NBCUniversal/gvs-ms-common/libs/datetime"
+	"github.com/mauricetjmurphy/ms-common/libs/datetime"
 	"github.com/stretchr/testify/assert"
 )
 

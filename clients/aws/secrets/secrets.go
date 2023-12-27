@@ -8,7 +8,7 @@ import (
 	"github.com/aws/aws-sdk-go-v2/service/secretsmanager"
 	"github.com/pkg/errors"
 
-	"github.com/NBCUniversal/gvs-ms-common/clients/aws"
+	"github.com/mauricetjmurphy/ms-common/clients/aws"
 )
 
 //go:generate mockery --output secretsmocks --outpkg secretsmocks --name Client

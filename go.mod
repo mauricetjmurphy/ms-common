@@ -1,4 +1,4 @@
-module github.com/NBCUniversal/gvs-ms-common
+module github.com/mauricetjmurphy/ms-common
 
 go 1.18
 

@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/NBCUniversal/gvs-ms-common/libs/config"
-	"github.com/NBCUniversal/gvs-ms-common/libs/config/testdata"
+	"github.com/mauricetjmurphy/ms-common/libs/config"
+	"github.com/mauricetjmurphy/ms-common/libs/config/testdata"
 	"github.com/stretchr/testify/assert"
 )
 

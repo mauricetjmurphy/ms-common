@@ -7,27 +7,26 @@ project:
   name: Global Vod Metadata
   umbrella proect: International Media Technology
   documentation: https://wiki.inbcu.com/display/MTI/Application+Urls
-  code: https://github.com/NBCUniversal/gvs-ms-common
+  code: https://github.com/mauricetjmurphy/ms-common
 
   teams:
     - GlobalVODSchedule-TMA
     - GlobalVODSchedule-UK
   contacts:
     product:
-      - Grajcarek, James (NBCUniversal) <James.Grajcarek@nbcuni.com>
+      - Grajcarek, James (mauricetjmurphy) <James.Grajcarek@nbcuni.com>
     technical:
-      - Emmerich, Neil (NBCUniversal) <Neil.Emmerich@nbcuni.com>
-      - de Freitas, Daniel (NBCUniversal) <Daniel.deFreitas@nbcuni.com>
+      - Emmerich, Neil (mauricetjmurphy) <Neil.Emmerich@nbcuni.com>
+      - de Freitas, Daniel (mauricetjmurphy) <Daniel.deFreitas@nbcuni.com>
       - Kiran Cholleti <Kiran.Cholleti@nbcuni.com>
     infrastucture:
       - Kiran Cholleti <Kiran.Cholleti@nbcuni.com>
-      - Pham, Viet (Contractor-NBCUniversal) <Viet.Pham@nbcuni.com>
+      - Pham, Viet (Contractor-mauricetjmurphy) <Viet.Pham@nbcuni.com>
     escalation:
-      - Emmerich, Neil (NBCUniversal) <Neil.Emmerich@nbcuni.com>
+      - Emmerich, Neil (mauricetjmurphy) <Neil.Emmerich@nbcuni.com>
   technical details:
     languages:
       - GO
     databases:
       - Aurora MySQL
-    infrastucture:
-      - AWS (US-East-1), AWS (US-West-2)
+    infrastucture: - AWS (US-East-1), AWS (US-West-2)

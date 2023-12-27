@@ -3,9 +3,9 @@ package migrate
 import (
 	"database/sql"
 
-	"github.com/NBCUniversal/gvs-ms-common/logx"
 	"github.com/golang-migrate/migrate/v4"
 	"github.com/golang-migrate/migrate/v4/database/mysql"
+	"github.com/mauricetjmurphy/ms-common/logx"
 	"github.com/pkg/errors"
 
 	// register migration from source file

@@ -8,11 +8,11 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/NBCUniversal/gvs-ms-common/clients/aws/lambda/utils"
-	"github.com/NBCUniversal/gvs-ms-common/logx"
 	"github.com/aws/aws-lambda-go/events"
 	awslambda "github.com/aws/aws-lambda-go/lambda"
 	"github.com/go-chi/chi/v5"
+	"github.com/mauricetjmurphy/ms-common/clients/aws/lambda/utils"
+	"github.com/mauricetjmurphy/ms-common/logx"
 )
 
 type Handler func(ctx context.Context, request events.APIGatewayV2HTTPRequest) (events.APIGatewayV2HTTPResponse, error)

@@ -3,7 +3,7 @@ package uuid_test
 import (
 	"testing"
 
-	"github.com/NBCUniversal/gvs-ms-common/libs/uuid"
+	"github.com/mauricetjmurphy/ms-common/libs/uuid"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -4,11 +4,11 @@ import (
 	"context"
 	"encoding/json"
 
-	"github.com/NBCUniversal/gvs-ms-common/clients/aws/lambda/utils"
-	"github.com/NBCUniversal/gvs-ms-common/libs/uuid"
-	"github.com/NBCUniversal/gvs-ms-common/logx"
 	"github.com/aws/aws-lambda-go/events"
 	"github.com/aws/aws-lambda-go/lambda"
+	"github.com/mauricetjmurphy/ms-common/clients/aws/lambda/utils"
+	"github.com/mauricetjmurphy/ms-common/libs/uuid"
+	"github.com/mauricetjmurphy/ms-common/logx"
 )
 
 type Handler func(ctx context.Context, sqsEvent events.SQSEvent) error

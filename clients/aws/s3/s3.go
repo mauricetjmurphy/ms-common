@@ -10,7 +10,7 @@ import (
 	"github.com/aws/aws-sdk-go-v2/service/s3"
 	"github.com/aws/aws-sdk-go-v2/service/s3/types"
 
-	"github.com/NBCUniversal/gvs-ms-common/libs/ptr"
+	"github.com/mauricetjmurphy/ms-common/libs/ptr"
 )
 
 //go:generate mockery --output s3mocks --outpkg s3mocks --name Client

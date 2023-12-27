@@ -3,9 +3,9 @@ package xray
 import (
 	"fmt"
 
-	"github.com/NBCUniversal/gvs-ms-common/logx"
 	"github.com/aws/aws-xray-sdk-go/xray"
 	"github.com/aws/aws-xray-sdk-go/xraylog"
+	"github.com/mauricetjmurphy/ms-common/logx"
 )
 
 func New(opts ...Option) error {

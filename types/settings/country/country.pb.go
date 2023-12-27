@@ -7,7 +7,7 @@
 package country
 
 import (
-	timezone "github.com/NBCUniversal/gvs-ms-common/types/settings/timezone"
+	timezone "github.com/mauricetjmurphy/ms-common/types/settings/timezone"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

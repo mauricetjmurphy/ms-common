@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/NBCUniversal/gvs-ms-common/libs/file"
+	"github.com/mauricetjmurphy/ms-common/libs/file"
 )
 
 const (

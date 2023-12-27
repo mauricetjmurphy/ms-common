@@ -4,8 +4,8 @@ import (
 	"context"
 	"regexp"
 
-	"github.com/NBCUniversal/gvs-ms-common/grpc/auth_context"
 	"github.com/grpc-ecosystem/go-grpc-middleware/util/metautils"
+	"github.com/mauricetjmurphy/ms-common/grpc/auth_context"
 	"github.com/pkg/errors"
 )
 

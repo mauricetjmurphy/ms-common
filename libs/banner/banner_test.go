@@ -4,7 +4,7 @@ import (
 	_ "embed"
 	"testing"
 
-	"github.com/NBCUniversal/gvs-ms-common/libs/banner"
+	"github.com/mauricetjmurphy/ms-common/libs/banner"
 )
 
 var (

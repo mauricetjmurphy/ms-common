@@ -5,8 +5,8 @@ import (
 	"io"
 	"net/http"
 
-	chttp "github.com/NBCUniversal/gvs-ms-common/clients/http"
-	"github.com/NBCUniversal/gvs-ms-common/logx"
+	chttp "github.com/mauricetjmurphy/ms-common/clients/http"
+	"github.com/mauricetjmurphy/ms-common/logx"
 )
 
 const (

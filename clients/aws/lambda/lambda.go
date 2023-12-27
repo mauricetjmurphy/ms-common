@@ -3,9 +3,9 @@ package lambda
 import (
 	"context"
 
-	"github.com/NBCUniversal/gvs-ms-common/clients/aws/lambda/utils"
-	"github.com/NBCUniversal/gvs-ms-common/logx"
 	"github.com/aws/aws-lambda-go/lambda"
+	"github.com/mauricetjmurphy/ms-common/clients/aws/lambda/utils"
+	"github.com/mauricetjmurphy/ms-common/logx"
 )
 
 type Func func(ctx context.Context, payload interface{}) error

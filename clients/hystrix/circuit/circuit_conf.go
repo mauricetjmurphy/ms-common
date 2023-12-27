@@ -3,9 +3,9 @@ package circuit
 import (
 	"time"
 
-	log "github.com/NBCUniversal/gvs-ms-common/logx"
 	"github.com/cep21/circuit/v3"
 	"github.com/cep21/circuit/v3/closers/hystrix"
+	log "github.com/mauricetjmurphy/ms-common/logx"
 )
 
 const (

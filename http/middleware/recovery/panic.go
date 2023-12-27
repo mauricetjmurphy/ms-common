@@ -6,7 +6,7 @@ import (
 	"os"
 	"runtime/debug"
 
-	"github.com/NBCUniversal/gvs-ms-common/logx"
+	"github.com/mauricetjmurphy/ms-common/logx"
 )
 
 const AllowPanicEnv = "ALLOW_PANIC"

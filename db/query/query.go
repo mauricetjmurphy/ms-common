@@ -3,7 +3,7 @@ package query
 import (
 	"context"
 
-	"github.com/NBCUniversal/gvs-ms-common/db/query/criteria"
+	"github.com/mauricetjmurphy/ms-common/db/query/criteria"
 
 	"golang.org/x/sync/errgroup"
 

@@ -5,7 +5,7 @@ import (
 
 	"gorm.io/gorm/clause"
 
-	"github.com/NBCUniversal/gvs-ms-common/db/query/criteria"
+	"github.com/mauricetjmurphy/ms-common/db/query/criteria"
 )
 
 // Join type

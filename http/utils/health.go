@@ -3,7 +3,7 @@ package utils
 import (
 	"net/http"
 
-	"github.com/NBCUniversal/gvs-ms-common/logx"
+	"github.com/mauricetjmurphy/ms-common/logx"
 )
 
 func HealthCheck(w http.ResponseWriter, _ *http.Request) {

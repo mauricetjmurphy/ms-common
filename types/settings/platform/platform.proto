@@ -1,7 +1,7 @@
 syntax = "proto3";
 
 package com.inbcu.rpc.types.settings.platform;
-option go_package = "github.com/NBCUniversal/gvs-ms-common/types/settings/platform;platform";
+option go_package = "github.com/mauricetjmurphy/ms-common/types/settings/platform;platform";
 
 message Platform {
   int64 id = 1;

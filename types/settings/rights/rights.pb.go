@@ -7,8 +7,8 @@
 package rights
 
 import (
-	channel "github.com/NBCUniversal/gvs-ms-common/types/settings/channel"
-	territory "github.com/NBCUniversal/gvs-ms-common/types/settings/territory"
+	channel "github.com/mauricetjmurphy/ms-common/types/settings/channel"
+	territory "github.com/mauricetjmurphy/ms-common/types/settings/territory"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

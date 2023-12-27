@@ -2,13 +2,14 @@ package query_test
 
 import (
 	"context"
-	"github.com/NBCUniversal/gvs-ms-common/db/dbmocks"
 	"testing"
 
+	"github.com/mauricetjmurphy/ms-common/db/dbmocks"
+
 	"github.com/DATA-DOG/go-sqlmock"
-	"github.com/NBCUniversal/gvs-ms-common/db/entity"
-	q "github.com/NBCUniversal/gvs-ms-common/db/query"
-	c "github.com/NBCUniversal/gvs-ms-common/db/query/criteria"
+	"github.com/mauricetjmurphy/ms-common/db/entity"
+	q "github.com/mauricetjmurphy/ms-common/db/query"
+	c "github.com/mauricetjmurphy/ms-common/db/query/criteria"
 	"github.com/stretchr/testify/assert"
 	"gorm.io/gorm"
 )

@@ -4,8 +4,8 @@ import (
 	"os"
 	"runtime/debug"
 
-	"github.com/NBCUniversal/gvs-ms-common/logx"
 	grpc_recovery "github.com/grpc-ecosystem/go-grpc-middleware/recovery"
+	"github.com/mauricetjmurphy/ms-common/logx"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"

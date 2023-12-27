@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/NBCUniversal/gvs-ms-common/libs/ptr"
+	"github.com/mauricetjmurphy/ms-common/libs/ptr"
 	"github.com/stretchr/testify/assert"
 )
 

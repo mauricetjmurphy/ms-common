@@ -3,7 +3,7 @@ package set_test
 import (
 	"testing"
 
-	"github.com/NBCUniversal/gvs-ms-common/libs/set"
+	"github.com/mauricetjmurphy/ms-common/libs/set"
 )
 
 func TestInts(t *testing.T) {

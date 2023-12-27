@@ -5,7 +5,7 @@ package s3mocks
 import (
 	context "context"
 
-	s3 "github.com/NBCUniversal/gvs-ms-common/clients/aws/s3"
+	s3 "github.com/mauricetjmurphy/ms-common/clients/aws/s3"
 	mock "github.com/stretchr/testify/mock"
 )
 
